@@ -30,6 +30,22 @@ input {
   bottom: 0;
   left: auto;
 }
+.test :-webkit-full-screen {
+  display: -webkit-flex;
+  display: flex;
+}
+.test :-moz-full-screen {
+  display: flex;
+}
+.test :-ms-fullscreen {
+  display: -ms-flexbox;
+  display: flex;
+}
+.test :fullscreen {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
 @media only screen and (max-width: 700px) {
   .test {
     color: #00f;
