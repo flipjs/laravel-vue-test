@@ -1,4 +1,6 @@
 var elixir = require('laravel-elixir')
+var poststylus = require('poststylus')
+var rupture = require('rupture')
 
 require('laravel-elixir-vueify')
 require('laravel-elixir-stylus')
@@ -17,7 +19,11 @@ require('laravel-elixir-stylus')
 elixir(function (mix) {
   mix
     .browserify('app.js')
-    .stylus('app.styl')
+    .stylus('app.styl', null, {
+      use: [
+        poststylus(['postcss-axis', 'postcss-position']), rupture()
+      ]
+    })
     .version([
       '/js/app.js',
       '/css/app.css'

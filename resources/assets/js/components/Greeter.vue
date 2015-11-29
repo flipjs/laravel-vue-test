@@ -2,7 +2,9 @@
   p
     background-color pink
     color black
+    padding 10px
   h1
+    background-color black
     color white
 </style>
 
