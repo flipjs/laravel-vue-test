@@ -1,0 +1,1 @@
+{"version":3,"sources":["layout.styl","app.css","element.styl"],"names":[],"mappings":"AAAA;EACE,uBAAA;EACA,aAAA;CCCD;ACHD;EACE,eAAA;CDKD","file":"app.css","sourcesContent":["h1\n  background-color red\n  margin 10px\n","h1 {\n  background-color: #f00;\n  margin: 10px;\n}\nbutton {\n  color: #008000;\n}\n","button\n  color green\n"],"sourceRoot":"/source/"}
