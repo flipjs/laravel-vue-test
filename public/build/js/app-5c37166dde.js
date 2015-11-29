@@ -9563,37 +9563,6 @@ exports.insert = function (css) {
 }
 
 },{}],4:[function(require,module,exports){
-var __vueify_style__ = require("vueify-insert-css").insert("body[_v-479f6021] {\n  background-color: #ff0;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n")
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = {
-  data: function data() {
-    return {
-      name: 'Laracasts'
-    };
-  }
-};
-if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "<div _v-479f6021=\"\"><h1 _v-479f6021=\"\">Hello, how are you, {{ name }}?</h1><input type=\"text\" v-model=\"name\" _v-479f6021=\"\"></div>"
-if (module.hot) {(function () {  module.hot.accept()
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), true)
-  if (!hotAPI.compatible) return
-  var id = "/Users/philip/dev/homestead/Vue-Test/resources/assets/js/components/Greeter.vue"
-  module.hot.dispose(function () {
-    require("vueify-insert-css").cache["body[_v-479f6021] {\n  background-color: #ff0;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n"] = false
-    document.head.removeChild(__vueify_style__)
-  })
-  if (!module.hot.data) {
-    hotAPI.createRecord(id, module.exports)
-  } else {
-    hotAPI.update(id, module.exports, module.exports.template)
-  }
-})()}
-},{"vue":2,"vue-hot-reload-api":1,"vueify-insert-css":3}],5:[function(require,module,exports){
 'use strict';
 
 var _Greeter = require('./components/Greeter.vue');
@@ -9610,10 +9579,41 @@ new Vue({
   components: { Greeter: _Greeter2.default },
 
   ready: function ready() {
-    window.alert('Vue and Vueify all set to go! Hell yeah!');
+    window.alert('Vueify all set to go! Hell yeah!');
   }
 });
 
-},{"./components/Greeter.vue":4,"vue":2}]},{},[5]);
+},{"./components/Greeter.vue":5,"vue":2}],5:[function(require,module,exports){
+var __vueify_style__ = require("vueify-insert-css").insert("body[_v-479f6021] {\n  background-color: #f00;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n")
+'use strict';
 
-//# sourceMappingURL=main.js.map
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = {
+  data: function data() {
+    return {
+      name: 'Laracasts'
+    };
+  }
+};
+if (module.exports.__esModule) module.exports = module.exports.default
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "<div _v-479f6021=\"\"><h1 _v-479f6021=\"\">Hello there, {{ name }}?</h1><input type=\"text\" v-model=\"name\" _v-479f6021=\"\"></div>"
+if (module.hot) {(function () {  module.hot.accept()
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), true)
+  if (!hotAPI.compatible) return
+  var id = "/Users/philip/dev/homestead/Vue-Test/resources/assets/js/components/Greeter.vue"
+  module.hot.dispose(function () {
+    require("vueify-insert-css").cache["body[_v-479f6021] {\n  background-color: #f00;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n"] = false
+    document.head.removeChild(__vueify_style__)
+  })
+  if (!module.hot.data) {
+    hotAPI.createRecord(id, module.exports)
+  } else {
+    hotAPI.update(id, module.exports, module.exports.template)
+  }
+})()}
+},{"vue":2,"vue-hot-reload-api":1,"vueify-insert-css":3}]},{},[4]);
+
+//# sourceMappingURL=app.js.map

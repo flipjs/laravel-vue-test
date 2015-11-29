@@ -2,13 +2,13 @@
 <html>
     <head>
         <title>Laravel</title>
-        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
     </head>
     <body>
         <div id="app">
             <greeter></greeter>
         </div>
 
-        <script src="/js/main.js"></script>
+        <script src="{{ elixir('js/app.js') }}"></script>
     </body>
 </html>

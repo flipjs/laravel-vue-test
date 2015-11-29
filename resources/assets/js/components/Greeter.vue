@@ -1,13 +1,13 @@
 <style lang="stylus" scoped>
   body
-    background-color yellow
+    background-color red
   h1
     color white
 </style>
 
 <template lang="jade">
 div
-  h1 Hello, how are you, {{ name }}?
+  h1 Hello there, {{ name }}?
   input(type="text" v-model="name")
 </template>
 

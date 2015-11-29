@@ -16,6 +16,10 @@ require('laravel-elixir-stylus')
 
 elixir(function (mix) {
   mix
-    .browserify('main.js')
+    .browserify('app.js')
     .stylus('app.styl')
+    .version([
+      '/js/app.js',
+      '/css/app.css'
+    ])
 })

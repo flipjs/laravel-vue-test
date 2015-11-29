@@ -9,7 +9,7 @@ new Vue({
   components: { Greeter },
 
   ready () {
-    window.alert('Vue and Vueify all set to go! Hell yeah!')
+    window.alert('Vueify all set to go! Hell yeah!')
   }
 })
 
