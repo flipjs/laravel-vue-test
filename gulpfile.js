@@ -1,3 +1,5 @@
+'use strict'
+
 var elixir = require('laravel-elixir')
 var poststylus = require('poststylus')
 var rupture = require('rupture')

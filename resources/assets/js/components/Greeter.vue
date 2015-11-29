@@ -4,6 +4,8 @@
     color black
     padding 10px
   h1
+    margin 0
+    padding 10px
     background-color black
     color white
 </style>

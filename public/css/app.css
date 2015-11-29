@@ -6,6 +6,8 @@ body {
 h1 {
   margin: 0;
   padding: 20px;
+  background-color: #f00;
+  color: #ffc0cb;
 }
 h2 {
   color: #f00;

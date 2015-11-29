@@ -9584,7 +9584,7 @@ new Vue({
 });
 
 },{"./components/Greeter.vue":5,"vue":2}],5:[function(require,module,exports){
-var __vueify_style__ = require("vueify-insert-css").insert("p[_v-479f6021] {\n  background-color: #ffc0cb;\n  color: #000;\n  padding: 10px;\n}\nh1[_v-479f6021] {\n  background-color: #000;\n  color: #fff;\n}\n")
+var __vueify_style__ = require("vueify-insert-css").insert("p[_v-479f6021] {\n  background-color: #ffc0cb;\n  color: #000;\n  padding: 10px;\n}\nh1[_v-479f6021] {\n  margin: 0;\n  padding: 10px;\n  background-color: #000;\n  color: #fff;\n}\n")
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -9605,7 +9605,7 @@ if (module.hot) {(function () {  module.hot.accept()
   if (!hotAPI.compatible) return
   var id = "/Users/philip/dev/homestead/Vue-Test/resources/assets/js/components/Greeter.vue"
   module.hot.dispose(function () {
-    require("vueify-insert-css").cache["p[_v-479f6021] {\n  background-color: #ffc0cb;\n  color: #000;\n  padding: 10px;\n}\nh1[_v-479f6021] {\n  background-color: #000;\n  color: #fff;\n}\n"] = false
+    require("vueify-insert-css").cache["p[_v-479f6021] {\n  background-color: #ffc0cb;\n  color: #000;\n  padding: 10px;\n}\nh1[_v-479f6021] {\n  margin: 0;\n  padding: 10px;\n  background-color: #000;\n  color: #fff;\n}\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {
