@@ -9579,12 +9579,12 @@ new Vue({
   components: { Greeter: _Greeter2.default },
 
   ready: function ready() {
-    window.alert('Vueify all set to go! Hell yeah!');
+    console.log('Vue and Vueify all set to go! Hell yeah!');
   }
 });
 
 },{"./components/Greeter.vue":5,"vue":2}],5:[function(require,module,exports){
-var __vueify_style__ = require("vueify-insert-css").insert("body[_v-479f6021] {\n  background-color: #f00;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n")
+var __vueify_style__ = require("vueify-insert-css").insert("p[_v-479f6021] {\n  background-color: #ffc0cb;\n  color: #000;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n")
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -9593,19 +9593,19 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = {
   data: function data() {
     return {
-      name: 'Laracasts'
+      name: 'Felipe'
     };
   }
 };
 if (module.exports.__esModule) module.exports = module.exports.default
-;(typeof module.exports === "function"? module.exports.options: module.exports).template = "<div _v-479f6021=\"\"><h1 _v-479f6021=\"\">Hello there, {{ name }}?</h1><input type=\"text\" v-model=\"name\" _v-479f6021=\"\"></div>"
+;(typeof module.exports === "function"? module.exports.options: module.exports).template = "<div _v-479f6021=\"\"><h1 _v-479f6021=\"\">Hello there, how are you, {{ name }}?</h1><input type=\"text\" v-model=\"name\" _v-479f6021=\"\"><p _v-479f6021=\"\">Ipsum maiores nobis earum quo iste modi fugit cumque nemo consectetur! Numquam delectus eveniet at cum et. Et eaque beatae suscipit vitae similique? Libero ex unde vitae adipisci laborum facere.</p></div>"
 if (module.hot) {(function () {  module.hot.accept()
   var hotAPI = require("vue-hot-reload-api")
   hotAPI.install(require("vue"), true)
   if (!hotAPI.compatible) return
   var id = "/Users/philip/dev/homestead/Vue-Test/resources/assets/js/components/Greeter.vue"
   module.hot.dispose(function () {
-    require("vueify-insert-css").cache["body[_v-479f6021] {\n  background-color: #f00;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n"] = false
+    require("vueify-insert-css").cache["p[_v-479f6021] {\n  background-color: #ffc0cb;\n  color: #000;\n}\nh1[_v-479f6021] {\n  color: #fff;\n}\n"] = false
     document.head.removeChild(__vueify_style__)
   })
   if (!module.hot.data) {

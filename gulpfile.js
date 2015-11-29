@@ -22,4 +22,8 @@ elixir(function (mix) {
       '/js/app.js',
       '/css/app.css'
     ])
+    .browserSync({
+      reloadDelay: 1000,
+      port: 3000
+    })
 })
