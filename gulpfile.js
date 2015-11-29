@@ -21,6 +21,7 @@ require('laravel-elixir-stylus')
 elixir(function (mix) {
   mix
     .browserify('app.js')
+    .browserify('test.js')
     .stylus('app.styl', null, {
       use: [
         poststylus(['postcss-axis', 'postcss-position']), rupture()
@@ -28,6 +29,7 @@ elixir(function (mix) {
     })
     .version([
       '/js/app.js',
+      '/js/test.js',
       '/css/app.css'
     ])
     .browserSync({
